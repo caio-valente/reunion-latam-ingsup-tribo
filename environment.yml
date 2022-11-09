@@ -1,0 +1,14 @@
+name: base
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7
+  - plotly
+  - pandas
+  - scipy
+  - statsmodels
+  - pip
+  - pip:
+    - opencv-python
+    - openpyxl
